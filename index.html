@@ -12,22 +12,32 @@
 <body>
     <section>
         <div class="wrap">
-            <form>
+            <img class="icon " src="img/icon-null.jpg" alt="icon">
+            <form id="email">
                 <label for="email">
                     <img src="img/mini-icon.svg" alt="person icon">
-                    <input type="email" name="" id="">
+                    <input type="email" name="" id="" placeholder="Digite seu Email">
                 </label>
             </form>
-            <form>
+            <form id="password">
                 <label for="password">
                     <img src="img/lock.svg" alt="lock icon">
-                    <input type="password" name="" id="">
+                    <input type="password" name="" id="" placeholder="Digite sua senha">
                 </label>
             </form>
+
             <div class="check">
-                <input type="checkbox" name="remember" id=""> Remember-me
-                <a href="#">Esqueceu a senha?</a>
+                <div class="remember">
+                    <label>
+                        <input type="checkbox" name="lembrese" id="">Lembrar de mim
+                    </label>
+                </div>
+                <div class="forget">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
             </div>
+
             <button>LOGIN</button>
 
         </div>
