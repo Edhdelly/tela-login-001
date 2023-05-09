@@ -39,7 +39,6 @@ section {
 #email label {
     border: 1px solid grey;
     display: flex;
-    align-items: center;
     margin: 5px 0;
 }
 
@@ -47,6 +46,7 @@ input[type="email"] {
     padding: 16px 40px;
     background-color: rgb(230, 230, 230);
     border: 1px solid grey;
+    padding-left: -19px;
 }
 
 #password label {
