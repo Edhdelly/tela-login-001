@@ -47,6 +47,7 @@ input[type="email"] {
     padding: 16px 40px;
     background-color: rgb(230, 230, 230);
     border: 1px solid grey;
+outline:nome;
 }
 
 #password label {
@@ -60,6 +61,7 @@ input[type="password"] {
     padding: 16px 40px;
     background-color: rgb(230, 230, 230);
     border: 1px solid grey;
+outline:nome;
 
 }
 
